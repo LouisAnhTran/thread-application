@@ -9,7 +9,7 @@ export default async function Home() {
   const result=await fetchPost(1,30);
   const user=await currentUser();
 
-  console.log(result)
+  console.log("this is all thread",result)
 
   return (
       <div>
